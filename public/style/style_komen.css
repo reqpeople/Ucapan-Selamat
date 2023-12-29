@@ -1,0 +1,5 @@
+.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
+
+.panel-body {
+    padding: 25px 20px;
+}

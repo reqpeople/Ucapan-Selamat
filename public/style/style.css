@@ -1,0 +1,51 @@
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url('https://pbs.twimg.com/media/D3q_n8DU4AAvcmB.jpg');
+    background-size:cover;
+    background-position:center;
+  }
+  
+  .window{
+    width:600px;
+    height:400px;
+    padding:20px;
+    text-align:center;
+    border:1px solid white;
+    border-radius:20px;
+    
+    backdrop-filter:blur(2px) brightness(50%);
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+  }
+  input[type="text"], input[type="email"], input[type="password"]{
+    border-radius:8px;
+    border:0.8px solid white;
+    color:white !important;
+    background:transparent;
+  }
+  form{
+    width:70%;
+  }
+  input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus{
+    background:rgba(0, 0, 0, 0.594);
+    box-shadow:none;
+
+    border:1px solid white;
+  }
+  input[type="text"]::placeholder,input[type="email"]::placeholder, input[type="password"]::placeholder{
+    color:white;
+  }
+  input[type="submit"]{
+    width:100%;
+    border-radius:8px;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:14px;
+  }
